@@ -1,0 +1,28 @@
+{
+    "forEach": {
+        "prefix": "fe",
+        "body": [
+            "${1:array}.forEach(function(item) {",
+            "\t${2:// body}",
+            "});"
+        ],
+        "description": "Code snippet for \"forEach\""
+    },
+    "setTimeout":{
+        "prefix": "st",
+        "body": [
+        "setTimeout(function() {",
+        "\t${0:// body}",
+        "}, ${1:1000});"
+        ],
+        "description": "Code snippet for 'setTimeout'"
+    },
+    "co": {
+        "prefix": "connie",
+        "body": [
+            "connie(function() {",
+            "}, ${1:1000});"
+        ],
+        "description": "Code snippet for 'connie'"
+    }
+}
